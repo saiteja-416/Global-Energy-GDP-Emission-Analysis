@@ -67,7 +67,6 @@ SELECT * FROM CONSUMPTION;
 -- Data Analysis Questions
 
 -- 1.What is the total emission per country for the most recent year available?
-
 SELECT country,year,
     SUM(emission) AS total_emission
 FROM emission_3
@@ -117,7 +116,6 @@ FROM gdp_3
 ORDER BY country, year;
 
 -- 7.How has population growth affected total emissions in each country?
-
 SELECT e.country,e.year,
     SUM(e.emission) AS total_emission,
     p.value AS population,
@@ -169,7 +167,6 @@ WHERE c.year >= (SELECT MAX(year) - 10 FROM consumption)
 GROUP BY c.country, c.year, p.Value;
 
 -- 12.How does energy production per capita vary across countries?
-
 SELECT p.country,p.year,
     (SUM(p.production) / pop.value) AS production_per_capita
 FROM production p
