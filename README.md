@@ -1,17 +1,14 @@
 # Global-Energy-GDP-Emission-Analysis
-SQL-based analysis of global energy consumption, production, GDP, emissions, and population data using joins, CTEs, and window functions.
 
-📌 Project Overview
+## 📌 Project Overview
+- This project analyzes global energy consumption, production, GDP, emissions, and population data using SQL to uncover country-level trends, economic correlations, and environmental insights. The analysis focuses on relational database design and advanced SQL querying to generate actionable analytical findings.
 
-This project analyzes global energy consumption, production, GDP, emissions, and population data using SQL to uncover country-level trends, economic correlations, and environmental insights. The analysis focuses on relational database design and advanced SQL querying to generate actionable analytical findings.
-
-🎯 Objectives
-
-● Analyze country-wise energy consumption and production patterns
-● Identify top emission-producing countries
-● Examine GDP and emission relationship
-● Compare production vs consumption gaps
-● Perform ranking and threshold-based performance analysis
+## 🎯 Objectives
+-  Analyze country-wise energy consumption and production patterns.
+● Identify top emission-producing countries.
+● Examine GDP and emission relationship.
+● Compare production vs consumption gaps.
+● Perform ranking and threshold-based performance analysis.
 
 🛠 Tools & Technologies
 
